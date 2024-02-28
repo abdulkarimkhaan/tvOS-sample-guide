@@ -10,7 +10,8 @@ import SwiftUI
 struct UserInteraction: View {
     
     @State var buttonSelected = ""
-    
+    @State var showAlert = false
+
     var body: some View {
         VStack {
             Text("Button Pressed \(buttonSelected)")
@@ -19,19 +20,34 @@ struct UserInteraction: View {
                 .padding(20)
 
             Button {
-                buttonSelected = "Login"
+//                buttonSelected = "Login"
             } label: {
                 Text("Login")
             }
             
             Button {
-                buttonSelected = "Register"
+//                buttonSelected = "Register"
+                showAlert = true
             } label: {
                 Text("Register")
             }
+            .alert("Alert Title!", isPresented: $showAlert) {
+                TextField(text: $buttonSelected) {}
+                Button("Submit") {
+                    print("Submit")
+                }
+                Button("Skip") {
+                    print("Skip")
+                }
+            } message: {
+                Text("Enter channel name")
+            }
+            
+            
 
         }
         .padding()
+        
     }
 }
 
