@@ -11,6 +11,8 @@
 		8450F6802B8D30B900CB0B65 /* UserInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450F67F2B8D30B900CB0B65 /* UserInteraction.swift */; };
 		8450F6822B8D30BB00CB0B65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8450F6812B8D30BB00CB0B65 /* Assets.xcassets */; };
 		8450F6852B8D30BB00CB0B65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8450F6842B8D30BB00CB0B65 /* Preview Assets.xcassets */; };
+		8450F6A92B9127CD00CB0B65 /* FocusSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450F6A82B9127CD00CB0B65 /* FocusSection.swift */; };
+		8450F6AB2B912AB000CB0B65 /* TabViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450F6AA2B912AB000CB0B65 /* TabViewC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		8450F67F2B8D30B900CB0B65 /* UserInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInteraction.swift; sourceTree = "<group>"; };
 		8450F6812B8D30BB00CB0B65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8450F6842B8D30BB00CB0B65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8450F6A82B9127CD00CB0B65 /* FocusSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSection.swift; sourceTree = "<group>"; };
+		8450F6AA2B912AB000CB0B65 /* TabViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				8450F6A52B8FD64900CB0B65 /* Episode 1  - User Interaction */,
+				8450F6A62B8FDDD200CB0B65 /* Episode 2- TabView */,
+				8450F6A72B9127AB00CB0B65 /* Episode 3 - Focus Section */,
 				8450F67D2B8D30B900CB0B65 /* tvOS_Sample_GuideApp.swift */,
 				8450F6812B8D30BB00CB0B65 /* Assets.xcassets */,
 				8450F6832B8D30BB00CB0B65 /* Preview Content */,
@@ -73,6 +79,22 @@
 				8450F67F2B8D30B900CB0B65 /* UserInteraction.swift */,
 			);
 			path = "Episode 1  - User Interaction";
+			sourceTree = "<group>";
+		};
+		8450F6A62B8FDDD200CB0B65 /* Episode 2- TabView */ = {
+			isa = PBXGroup;
+			children = (
+				8450F6AA2B912AB000CB0B65 /* TabViewC.swift */,
+			);
+			path = "Episode 2- TabView";
+			sourceTree = "<group>";
+		};
+		8450F6A72B9127AB00CB0B65 /* Episode 3 - Focus Section */ = {
+			isa = PBXGroup;
+			children = (
+				8450F6A82B9127CD00CB0B65 /* FocusSection.swift */,
+			);
+			path = "Episode 3 - Focus Section";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +168,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8450F6802B8D30B900CB0B65 /* UserInteraction.swift in Sources */,
+				8450F6A92B9127CD00CB0B65 /* FocusSection.swift in Sources */,
+				8450F6AB2B912AB000CB0B65 /* TabViewC.swift in Sources */,
 				8450F67E2B8D30B900CB0B65 /* tvOS_Sample_GuideApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
