@@ -7,7 +7,7 @@
 [![YouTube][youtube-shield]][youtube-url]
 
 
-# Building SwiftUI Application on tvOS [GUIDELINE] 2024
+# Building SwiftUI Application on tvOS [GUIDELINE 2024] 
 
 ## Overview
 This repository consist of different episodes and step-by-step walkthrough of how to create SwiftUI application for Apple tvOS platform.
