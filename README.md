@@ -70,4 +70,4 @@ For any questions or feedback, feel free to reach out to [abdulkarimkhan.cs@hotm
 [youtube-shield]: https://img.shields.io/badge/-YouTube-red.svg?style=for-the-badge&logo=youtube&colorB=FF0000
 [youtube-url]: https://www.youtube.com/watch?v=bcJGuHrU8uo
 [youtube-url-tvOS-first-episode]: https://www.youtube.com/watch?v=srb5sgdz2cs&t=3s
-[youtube-url-tvOS-second-episode]: https://www.youtube.com/watch?v=srb5sgdz2cs&t=3s
+[youtube-url-tvOS-second-episode]: https://www.youtube.com/watch?v=aTCzjYyI3V8
