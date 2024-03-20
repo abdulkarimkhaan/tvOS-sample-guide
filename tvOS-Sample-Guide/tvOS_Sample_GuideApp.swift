@@ -11,7 +11,7 @@ import SwiftUI
 struct tvOS_Sample_GuideApp: App {
     var body: some Scene {
         WindowGroup {
-            UserInteraction()
+            LaunchView()
         }
     }
 }

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841C8A312BA8F8EB008F2DB1 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C8A262BA8F8EA008F2DB1 /* DashboardView.swift */; };
+		841C8A322BA8F8EB008F2DB1 /* MediaPSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C8A282BA8F8EA008F2DB1 /* MediaPSView.swift */; };
+		841C8A332BA8F8EB008F2DB1 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C8A2A2BA8F8EB008F2DB1 /* SplashScreenView.swift */; };
+		841C8A342BA8F8EB008F2DB1 /* StorePSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C8A2C2BA8F8EB008F2DB1 /* StorePSView.swift */; };
+		841C8A352BA8F8EB008F2DB1 /* GamesMainPSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C8A2E2BA8F8EB008F2DB1 /* GamesMainPSView.swift */; };
+		841C8A362BA8F8EB008F2DB1 /* GameStructAndEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C8A2F2BA8F8EB008F2DB1 /* GameStructAndEnum.swift */; };
+		841C8A372BA8F8EB008F2DB1 /* GamesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C8A302BA8F8EB008F2DB1 /* GamesModel.swift */; };
 		8450F67E2B8D30B900CB0B65 /* tvOS_Sample_GuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450F67D2B8D30B900CB0B65 /* tvOS_Sample_GuideApp.swift */; };
 		8450F6802B8D30B900CB0B65 /* UserInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450F67F2B8D30B900CB0B65 /* UserInteraction.swift */; };
 		8450F6822B8D30BB00CB0B65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8450F6812B8D30BB00CB0B65 /* Assets.xcassets */; };
@@ -16,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		841C8A262BA8F8EA008F2DB1 /* DashboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		841C8A282BA8F8EA008F2DB1 /* MediaPSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaPSView.swift; sourceTree = "<group>"; };
+		841C8A2A2BA8F8EB008F2DB1 /* SplashScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		841C8A2C2BA8F8EB008F2DB1 /* StorePSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorePSView.swift; sourceTree = "<group>"; };
+		841C8A2E2BA8F8EB008F2DB1 /* GamesMainPSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesMainPSView.swift; sourceTree = "<group>"; };
+		841C8A2F2BA8F8EB008F2DB1 /* GameStructAndEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStructAndEnum.swift; sourceTree = "<group>"; };
+		841C8A302BA8F8EB008F2DB1 /* GamesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesModel.swift; sourceTree = "<group>"; };
 		8450F67A2B8D30B900CB0B65 /* tvOS-Sample-Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tvOS-Sample-Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8450F67D2B8D30B900CB0B65 /* tvOS_Sample_GuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvOS_Sample_GuideApp.swift; sourceTree = "<group>"; };
 		8450F67F2B8D30B900CB0B65 /* UserInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInteraction.swift; sourceTree = "<group>"; };
@@ -36,6 +50,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		841C8A202BA8F356008F2DB1 /* Episode 4 - Console Theme */ = {
+			isa = PBXGroup;
+			children = (
+				841C8A292BA8F8EB008F2DB1 /* SplashScreen */,
+				841C8A252BA8F8EA008F2DB1 /* Dashboard */,
+				841C8A2D2BA8F8EB008F2DB1 /* Games */,
+				841C8A272BA8F8EA008F2DB1 /* Media */,
+				841C8A2B2BA8F8EB008F2DB1 /* Store */,
+			);
+			path = "Episode 4 - Console Theme";
+			sourceTree = "<group>";
+		};
+		841C8A252BA8F8EA008F2DB1 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				841C8A262BA8F8EA008F2DB1 /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		841C8A272BA8F8EA008F2DB1 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				841C8A282BA8F8EA008F2DB1 /* MediaPSView.swift */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		841C8A292BA8F8EB008F2DB1 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				841C8A2A2BA8F8EB008F2DB1 /* SplashScreenView.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		841C8A2B2BA8F8EB008F2DB1 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				841C8A2C2BA8F8EB008F2DB1 /* StorePSView.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		841C8A2D2BA8F8EB008F2DB1 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				841C8A2E2BA8F8EB008F2DB1 /* GamesMainPSView.swift */,
+				841C8A2F2BA8F8EB008F2DB1 /* GameStructAndEnum.swift */,
+				841C8A302BA8F8EB008F2DB1 /* GamesModel.swift */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
 		8450F6712B8D30B900CB0B65 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +126,7 @@
 				8450F6A52B8FD64900CB0B65 /* Episode 1  - User Interaction */,
 				8450F6A62B8FDDD200CB0B65 /* Episode 2- TabView */,
 				8450F6A72B9127AB00CB0B65 /* Episode 3 - Focus Section */,
+				841C8A202BA8F356008F2DB1 /* Episode 4 - Console Theme */,
 				8450F67D2B8D30B900CB0B65 /* tvOS_Sample_GuideApp.swift */,
 				8450F6812B8D30BB00CB0B65 /* Assets.xcassets */,
 				8450F6832B8D30BB00CB0B65 /* Preview Content */,
@@ -167,10 +236,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841C8A332BA8F8EB008F2DB1 /* SplashScreenView.swift in Sources */,
+				841C8A352BA8F8EB008F2DB1 /* GamesMainPSView.swift in Sources */,
 				8450F6802B8D30B900CB0B65 /* UserInteraction.swift in Sources */,
+				841C8A372BA8F8EB008F2DB1 /* GamesModel.swift in Sources */,
+				841C8A342BA8F8EB008F2DB1 /* StorePSView.swift in Sources */,
 				8450F6A92B9127CD00CB0B65 /* FocusSection.swift in Sources */,
+				841C8A362BA8F8EB008F2DB1 /* GameStructAndEnum.swift in Sources */,
+				841C8A312BA8F8EB008F2DB1 /* DashboardView.swift in Sources */,
 				8450F6AB2B912AB000CB0B65 /* TabViewC.swift in Sources */,
 				8450F67E2B8D30B900CB0B65 /* tvOS_Sample_GuideApp.swift in Sources */,
+				841C8A322BA8F8EB008F2DB1 /* MediaPSView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
