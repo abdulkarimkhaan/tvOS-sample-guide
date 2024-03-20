@@ -50,7 +50,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		841C8A202BA8F356008F2DB1 /* Episode 4 - Console Theme */ = {
+		841C8A202BA8F356008F2DB1 /* Episode 4 - Focus Engine */ = {
 			isa = PBXGroup;
 			children = (
 				841C8A292BA8F8EB008F2DB1 /* SplashScreen */,
@@ -59,7 +59,7 @@
 				841C8A272BA8F8EA008F2DB1 /* Media */,
 				841C8A2B2BA8F8EB008F2DB1 /* Store */,
 			);
-			path = "Episode 4 - Console Theme";
+			path = "Episode 4 - Focus Engine";
 			sourceTree = "<group>";
 		};
 		841C8A252BA8F8EA008F2DB1 /* Dashboard */ = {
@@ -126,7 +126,7 @@
 				8450F6A52B8FD64900CB0B65 /* Episode 1  - User Interaction */,
 				8450F6A62B8FDDD200CB0B65 /* Episode 2- TabView */,
 				8450F6A72B9127AB00CB0B65 /* Episode 3 - Focus Section */,
-				841C8A202BA8F356008F2DB1 /* Episode 4 - Console Theme */,
+				841C8A202BA8F356008F2DB1 /* Episode 4 - Focus Engine */,
 				8450F67D2B8D30B900CB0B65 /* tvOS_Sample_GuideApp.swift */,
 				8450F6812B8D30BB00CB0B65 /* Assets.xcassets */,
 				8450F6832B8D30BB00CB0B65 /* Preview Content */,
