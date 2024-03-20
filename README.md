@@ -40,7 +40,10 @@ Learn in run time by viewing code and simultaneously running each episodes.
 
 
 ## Sample Video
-Coming soon in next episode!!
+
+https://github.com/abdulkarimkhaan/tvOS-sample-guide/assets/49764851/12da9267-9d55-4cc1-befb-d7f69077047c
+
+
 
 ## Contributing
 If you'd like to contribute to this project, please follow the Contributing Guidelines.
