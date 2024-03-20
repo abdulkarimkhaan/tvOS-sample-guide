@@ -21,6 +21,9 @@ This repository consist of different episodes and step-by-step walkthrough of ho
 
 [![YouTube][youtube-shield]][youtube-url-tvOS-second-episode]
 
+3. Basic understanding of Focus Engine
+
+[![YouTube][youtube-shield]][youtube-url-tvOS-third-episode]
 
 ## Getting Started
 Prerequisites
@@ -74,3 +77,8 @@ For any questions or feedback, feel free to reach out to [abdulkarimkhan.cs@hotm
 [youtube-url]: https://www.youtube.com/watch?v=bcJGuHrU8uo
 [youtube-url-tvOS-first-episode]: https://www.youtube.com/watch?v=srb5sgdz2cs&t=3s
 [youtube-url-tvOS-second-episode]: https://www.youtube.com/watch?v=aTCzjYyI3V8
+[youtube-url-tvOS-third-episode]: https://youtu.be/pGOFRgRQpNo?si=r1QNp3w_YzolTBIO
+
+
+
+
